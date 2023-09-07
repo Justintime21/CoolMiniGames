@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="static/css/stylesnake.css">
+</head>
+
+<body style="background-color:#333333;">
+    <div class="row">
+        <!-- Create three columns, with game canvas in center column and scoreboard in right column -->
+        <div class="column left"></div>
+        <div class="column middle">
+            <canvas id="canvas" width="1200" height="800"></canvas>
+        </div>
+        <div class="column right">
+        <!-- The scoreboard is stored in a .txt file, which is displayed in an iframe -->
+        <iframe src="static/js/score.txt"></iframe>
+        </div>
+    </div>
+    <br>
+    <center>
+        <!-- Score counter -->
+        <font color="white">Score: <b id="score">0</b></font>
+        <!-- Score submission form -->
+        <form id="scoresubmit">
+
+        </form>
+    </center> 
+
+
+    <script src = "static/js/run.js" ></script>
+</body>
+</html>

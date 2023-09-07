@@ -1,0 +1,62 @@
+extend base.pug 
+block scripts 
+block style
+    style
+        include ../static/css/style.css 
+        include ../static/css/styleloginsignup.css 
+    <link href='https://fonts.googleapis.com/css?family=Press Start 2P' rel='stylesheet'>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+block content 
+    section#wrapper 
+        div#rformwrap
+            div#title
+                p Registration form 
+            div#rform
+                form(action='/register' method='POST' id='form3')
+                    div.inputwrap
+                        label(for='yourname') Your Name
+                        div.inputitem
+                            span(class='icon')
+                                <ion-icon name="person-sharp"></ion-icon>
+                            input(type='text' name='Name' class='input' id='yourname')
+                    div.inputwrap
+                        label(for='email') Email
+                        div.inputitem
+                            span(class='icon')
+                               <ion-icon name="mail-sharp"></ion-icon>
+                            input(type='email' name='Email' class='input' id='email')
+                    div.inputwrap
+                        label(for='password') Password
+                        div.inputitem
+                            span(class='icon')
+                               <ion-icon name="key-sharp"></ion-icon>
+                            input(type='password' name='password' class='input' id='password')
+                    div.inputwrap
+                        label(for='confirmpassword') Confirm Password
+                        div.inputitem
+                            span(class='icon')
+                               <ion-icon name="key-sharp"></ion-icon>
+                            input(type='password' name='confirmpassword' class='input' id='confirmpassword')
+                    div.inputwrap
+                        label(for='phone') Phone
+                        div.inputitem
+                            span(class='icon')
+                               <ion-icon name="call-sharp"></ion-icon>
+                            input(type='number' name='phone' class='input' id='phone')
+                    div.inputwrap
+                        label(for='gender') Gender
+                        div#inputradio
+                            div.inputradioitem
+                                input(type='radio' id='male' name='gender' class='radio' value='male')
+                                label(for='male' class='radiomark')
+                                    <ion-icon class="i" name="male-sharp"></ion-icon>    Male
+                            div.inputradioitem
+                                input(type='radio' id='female' name='gender' class='radio' value='male')
+                                label(for='female' class='radiomark') 
+                                    <ion-icon class="i" name="female-sharp"></ion-icon> Female
+                            div.inputradioitem
+                                input(type='radio' id='others' name='gender' class='radio' value='male')
+                                label(for='others' class='radiomark') 
+                                    <ion-icon class="i" name="male-female-sharp"></ion-icon> Others
+                    
+                    button(id='btn2') Register Now

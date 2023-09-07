@@ -1,0 +1,22 @@
+doctype html 
+html 
+    head 
+        title CoolMiniGames 
+        block scripts 
+        block style
+    body 
+        nav#navbar
+            div#logo 
+                img(src='static/img/basket-ball-5349775_1280.jpg')
+            div#logoname
+                h2 Cool 
+                h2 Mini 
+                h2 Games
+            ul 
+                   li #[a(class='navlist' href='/') Home]
+                   li #[a(class='navlist' href='/aboutus') About Us]
+                   li #[a(class='navlist' href='/contact') Contact Us]
+                   li #[a(class='navlist' href='/loginsignup') Sign Up/Login]
+            p Welcome
+        block content 
+        block footer

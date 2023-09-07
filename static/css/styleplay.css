@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+#play{
+    font-family: 'Press Start 2P';
+    height: 630px;
+}
+#play h1{
+    margin-left: 565px;
+    margin-top: 37px;
+    margin-bottom: 55px;
+    color: #ed8fed;
+}
+#games{
+    display: flex;
+    height: 205px;
+    align-items: center;
+    justify-content: center;
+}
+#games img{
+    height: 169px;
+    width: 215px;
+    border-radius: 92px;
+    margin: 0px 95px;
+    
+}
+#play::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    opacity: 0.8;
+    z-index: -1;
+    height: 747px;
+    width: 1536px;
+    background: url(static/img/playwall.webp)no-repeat center center;
+    background-size: cover;
+}

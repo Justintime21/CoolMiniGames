@@ -1,0 +1,20 @@
+extend base.pug 
+
+block scripts
+block style 
+    style 
+        include ../static/css/style.css 
+        include ../static/css/styleplay.css
+    <link href='https://fonts.googleapis.com/css?family=Press Start 2P' rel='stylesheet'>    
+block content
+    section#play
+        h1 Gaming Arena
+        section#games
+            a(href='/snake' target='_blank')
+                img(src='static/img/snakebhehen.webp')  
+            a(href='/tictactoe' target='_blank')    
+                img(src='static/img/xos.png')
+            a(href='/pikath' target='_blank')        
+                img(src='static/img/sonicsheth.png')
+
+    

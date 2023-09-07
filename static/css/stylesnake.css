@@ -1,0 +1,33 @@
+.column {
+    float: left;
+    height: 674px
+}
+
+.left, .right {
+    width: 17.5%;
+}
+
+.middle {
+    width: 65%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 1056px;
+    margin-left: -177px;
+    height: 657px;
+}
+
+iframe {
+    width: 246px;
+    height: 653px;
+    background-color: white;
+}

@@ -1,0 +1,42 @@
+doctype html 
+html 
+    head 
+        title CoolMiniGames 
+        style
+            include ../static/css/style.css
+        <link href='https://fonts.googleapis.com/css?family=Press Start 2P' rel='stylesheet'>
+    body 
+        nav#navbar
+            div#logo 
+                img(src='static/img/basket-ball-5349775_1280.jpg')
+            div#logoname
+                h2 Cool 
+                h2 Mini 
+                h2 Games
+            ul 
+                   li #[a(class='navlist' href='#') Home]
+                   li #[a(class='navlist' href='#') About Us]
+                   li #[a(class='navlist' href='#') Contact Us]
+                   li #[a(class='navlist' href='#') Sign Up/Login]
+            p Welcome
+        section#home 
+            div#textsec 
+                h2 Cool Mini Games     
+                p Make Sure to login first and then play to support us 
+                form(action='/' id='form1')
+                    button(id='btn1') Play now 
+            div#card 
+                img(src='static/img/arcade.jpg' height:='100%' width='100%')
+        section#info 
+            div.card  
+                img(src='static/img/snakebhai.png')
+                p The player controls a long, thin creature, resembling a snake, which roams around on a bordered plane, picking up food (or some other item), trying to avoid hitting its own tail or the edges of the playing area.
+            div.card  
+                img(src='static/img/xos.png')
+                p Tic-tac-toe is a game in which two players take turns in drawing either an ` O' or an ` X' in one square of a grid consisting of nine squares. The winner is the first player to get three of the same symbols in a row.
+            div.card  
+                img(src='static/img/sonicsheth.png')
+                p The player guides a pixelated Sonic The Hedgehog across a side-scrolling landscape, avoiding obstacles to achieve a higher score.
+            
+    footer 
+        p  Copyright@2023 CoolMiniGames.com | All rights reserved          

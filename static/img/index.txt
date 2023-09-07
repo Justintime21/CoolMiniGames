@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Coolminigames</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="hero">
+        <nav>
+            <img src ="C:/Users/sandeepgautam/Pictures/Saved Pictures/coolmini2.png" class=""menu-img>
+            <ul>
+                <li><a href="">
+                    <img src="C:/Users/sandeepgautam/Pictures/Saved Pictures/game1stone.png"style="width:150px;height:100px;border=0;">Rock-Paper-Scissors</a>
+                    <li><a href="">
+                        <img src="C:/Users/sandeepgautam/Pictures/Saved Pictures/game2bingo.png"style="width:150px;height:100px;border=0;">B!NGO</a>
+                        <li><a href="">
+                            <img src="C:/Users/sandeepgautam/Pictures/Saved Pictures/game3tic.png"style="width:150px;height:100px;border=0;">Tic-Tac-Toe</a>
+                            <li><a href="">
+                                <img src="C:/Users/sandeepgautam/Pictures/Saved Pictures/game4guess.png"style="width:150px;height:100px;border=0;">Guess the number</a>
+                                <li><a href="">
+                                    <img src="C:/Users/sandeepgautam/Pictures/Saved Pictures/game5hang.png"style="width:150px;height:100px;border=0;">Hangman</a>
+            </ul>
+        </nav>
+        </div>
+    </body>
+    </html>
+
+
+html file
